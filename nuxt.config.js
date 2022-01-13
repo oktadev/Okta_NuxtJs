@@ -47,7 +47,7 @@ export default {
       okta: {
         scheme: "openIDConnect",
         endpoints: {
-          configuration: `https://${process.env.OKTA_DOMAIN}/oauth2/default/.well-known/oauth-authorization-server`,
+          configuration: `${process.env.OKTA_DOMAIN}/oauth2/default/.well-known/oauth-authorization-server`,
           logout: undefined,
         },
         clientId: process.env.OKTA_CLIENT_ID,
