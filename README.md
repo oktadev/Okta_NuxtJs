@@ -46,7 +46,7 @@ Client ID: {clientId}
 Create a `.env` file and paste your org URL and client ID into it:
 
 ```js
-OKTA_DOMAIN={yourOktaDomain}
+OKTA_DOMAIN=https://{yourOktaDomain}
 OKTA_CLIENT_ID={yourClientId}
 ```
 
